@@ -1,0 +1,32 @@
+#Strings can be "" or ''. But can not mix up 
+print("John Doe")
+print('Jane Diana')
+
+#Assigns strings to variable
+name = "John Doe"
+name
+
+#len function can find the characters in a strings
+len("Hippopotomonstrosesquippedaliophobia")
+
+#Indexing ## index 0 is the first index and -1 is the last one
+print(name[0]) #--> "J"
+print(name[-1]) #--> "e"
+
+#Slicing ##Can obtain multiple characters from a string 
+# When taking the slice, the first number is the index and the second number means the length fro the index to te last element(start at 1)
+P_name = "Alexander Hamilton"
+P_name[0:4] #--> Alex
+P_name[10:15] #--> Hamil
+
+#Stride ##specific slicing of string
+P_name[::2] #-->AeadrHmlo -Get every second elements. index 1,3,5,7 ...
+##Can be incorporate slicing with stride
+P_name[0:5:2] #-->Aea -Get every second element from index 0 to 4
+
+#Concat
+fruit = "Apple"
+string = "I like" + fruit
+
+# multiply string can be done in python
+3 * fruit
