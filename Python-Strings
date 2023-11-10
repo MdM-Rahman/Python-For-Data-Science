@@ -30,3 +30,9 @@ string = "I like" + fruit
 
 # multiply string can be done in python
 3 * fruit
+
+#find function will find the index of first element of the substring
+place = "Denmark"
+place.find("mark") #--> 3
+
+
